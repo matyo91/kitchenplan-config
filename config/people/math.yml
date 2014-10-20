@@ -6,4 +6,6 @@ recipes:
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
-        computername: Mathieu
+        computername: mathieu
+        terminal:
+            profile: Solarized-Light-ansi

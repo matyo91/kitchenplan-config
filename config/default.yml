@@ -13,7 +13,7 @@ attributes:
         cask_apps:
             - google-chrome
             - firefox
-        cask_fonts:   
+        cask_fonts:
             - inconsolata
     nodejs:
         apps:
