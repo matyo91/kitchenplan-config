@@ -5,7 +5,17 @@ recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
+	git:
+        name: Mathieu Ledru
+        email: matyo91@gmail.com
     osxdefaults:
         computername: mathieu
         terminal:
             profile: Solarized-Light-ansi
+    homebrewalt:
+        apps:
+            - ffmpeg
+            - lftp
+            - nmap
+        cask_apps:
+      		- vlc
