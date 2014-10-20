@@ -5,7 +5,7 @@ recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
-	git:
+    git:
         name: Mathieu Ledru
         email: matyo91@gmail.com
     osxdefaults:
@@ -18,4 +18,4 @@ attributes:
             - lftp
             - nmap
         cask_apps:
-      		- vlc
+            - vlc
