@@ -1,13 +1,14 @@
 groups:
-    - groupa
+    - bash
+    - developer
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
-        computername: MyComputerName
+        computername: Mathieu
     homebrewalt:
-        apps:
-            - git-extras
         cask_apps:
-            - sourcetree
+            - vagrant
+            - phpstorm
+            - sequel-pro
