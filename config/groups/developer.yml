@@ -1,12 +1,11 @@
 recipes:
     global:
-        - applications::ssh_config
         - dotfiles::gitconfig
         - dotfiles::vim
         - dotfiles::workspace
+        - applications::ssh_config
         - applications::mysql
         - applications::php56
-        - applications::skylab
     mac_os_x:
         - applications::sublime_text_3
         - applications::gnu-tar
@@ -39,20 +38,17 @@ attributes:
         apps:
             - git
             - git-extras
-            - wget
+            - git-flow
             - pwgen
             - xmlstarlet
             - htop-osx
-            - git-flow
             - siege
             - watch
             - rsync
         cask_apps:
-            - imageoptim
-            - imagealpha
+            - vagrant
             - phpstorm
             - sequel-pro
-            - sourcetree
     nodejs:
         apps:
             - uglify-js

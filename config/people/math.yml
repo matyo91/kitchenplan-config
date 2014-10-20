@@ -7,8 +7,3 @@ recipes:
 attributes:
     osxdefaults:
         computername: Mathieu
-    homebrewalt:
-        cask_apps:
-            - vagrant
-            - phpstorm
-            - sequel-pro
