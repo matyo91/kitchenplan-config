@@ -33,6 +33,7 @@ attributes:
             - hipchat
             - harvest
             - onepassword
+            - spectacle
     nodejs:
         apps:
             - phonegap
