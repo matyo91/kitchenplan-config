@@ -19,3 +19,23 @@ attributes:
             - nmap
         cask_apps:
             - vlc
+            - transmit
+            - transmission
+            - gitx
+            - shuttle
+            - bbedit
+            - nvalt
+            - onyx
+            - unrarx
+            - atom
+            - evernote
+            - unrarx
+            - hipchat
+            - harvest
+            - onepassword
+    nodejs:
+        apps:
+            - phonegap
+            - cordova
+            - cordova-cli
+            - ionic

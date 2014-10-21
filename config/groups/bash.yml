@@ -7,3 +7,4 @@ attributes:
     homebrewalt:
         apps:
             - bash-completion
+            - coreutils

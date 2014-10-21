@@ -2,7 +2,6 @@ recipes:
     global:
         - dotfiles::gitconfig
         - dotfiles::vim
-        - dotfiles::workspace
         - applications::ssh_config
         - applications::mysql
         - applications::php56
@@ -11,17 +10,17 @@ recipes:
         - applications::gnu-tar
         - osxdefaults::set_terminal_profile
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
-        - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+        - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
         - osxdefaults::disable_disk_image_verification
         - osxdefaults::disable_gatekeeper
         - osxdefaults::disable_front_row
+        - osxdefaults::dock_automatically_hide_and_show_the_dock
+        - osxdefaults::do_not_show_dashboard_as_a_space
         - osxdefaults::enable_assistive_devices
         - osxdefaults::enable_full_keyboard_access_for_all_controls
         - osxdefaults::increase_window_resize_speed_for_cocoa_applications
         - osxdefaults::speed_up_mission_control_animations
-        - osxdefaults::tap_to_click
-        - osxdefaults::do_not_show_dashboard_as_a_space
         - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
         - osxdefaults::finder_allow_text_selection_in_quick_look
         - osxdefaults::finder_display_full_path
@@ -45,10 +44,17 @@ attributes:
             - siege
             - watch
             - rsync
+            - imagemagick
+            - libyaml
+            - curl
+            - wget
+            - docker
         cask_apps:
             - vagrant
             - phpstorm
             - sequel-pro
+            - dash
+            - diffmerge
     nodejs:
         apps:
             - uglify-js
@@ -56,7 +62,10 @@ attributes:
             - bower
             - grunt
             - grunt-cli
+            - gulp
+            - yo
     gems:
         - sass
+        - coffee-script
     php-apps:
         - composer
