@@ -36,6 +36,4 @@ attributes:
     nodejs:
         apps:
             - phonegap
-            - cordova
-            - cordova-cli
             - ionic
