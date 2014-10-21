@@ -34,6 +34,7 @@ attributes:
             - harvest
             - onepassword
             - spectacle
+            - owncloud
     nodejs:
         apps:
             - phonegap
