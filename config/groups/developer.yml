@@ -50,6 +50,7 @@ attributes:
             - wget
             - docker
         cask_apps:
+            - virtualbox
             - vagrant
             - phpstorm
             - sequel-pro
