@@ -32,7 +32,7 @@ attributes:
             - unrarx
             - hipchat
             - harvest
-            - onepassword
+            - 1password
             - spectacle
             - owncloud
     nodejs:
