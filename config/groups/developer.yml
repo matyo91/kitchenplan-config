@@ -49,6 +49,7 @@ attributes:
             - curl
             - wget
             - docker
+            - ssh-copy-id
         cask_apps:
             - virtualbox
             - vagrant
