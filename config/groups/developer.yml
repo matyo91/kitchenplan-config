@@ -1,7 +1,7 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - dotfiles::vim
+#        - dotfiles::vim
         - applications::ssh_config
 #        - applications::mysql
 #        - applications::php56
