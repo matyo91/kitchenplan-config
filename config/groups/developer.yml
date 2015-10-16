@@ -3,8 +3,8 @@ recipes:
         - dotfiles::gitconfig
         - dotfiles::vim
         - applications::ssh_config
-        - applications::mysql
-        - applications::php56
+#        - applications::mysql
+#        - applications::php56
     mac_os_x:
         - applications::sublime_text_3
         - applications::gnu-tar
