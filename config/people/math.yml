@@ -23,7 +23,7 @@ attributes:
             - transmission
             - gitx
             - shuttle
-            - bbedit
+#            - bbedit
             - nvalt
             - onyx
             - unrarx
