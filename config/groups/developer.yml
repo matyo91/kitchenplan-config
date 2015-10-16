@@ -1,13 +1,13 @@
 recipes:
     global:
         - dotfiles::gitconfig
-#        - dotfiles::vim
+        - dotfiles::vim
         - applications::ssh_config
 #        - applications::mysql
 #        - applications::php56
     mac_os_x:
 #        - applications::sublime_text_3
-        - applications::gnu-tar
+#        - applications::gnu-tar
         - osxdefaults::set_terminal_profile
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
